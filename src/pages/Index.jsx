@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Box, Button, Container, Flex, Heading, Input, InputGroup, InputLeftElement, Stack, Tag, Text, VStack, Image, useToast } from "@chakra-ui/react";
 import { FaSearch, FaEnvelope, FaUser } from "react-icons/fa";
+import Footer from "../components/Footer";
 
 const developers = [
   { id: 1, name: "Alice", location: "New York, USA", technologies: ["React", "Node.js", ".NET"] },
@@ -74,6 +75,7 @@ const Index = () => {
           ))}
         </Flex>
       </VStack>
+      <Footer />
     </Container>
   );
 };
