@@ -9,7 +9,14 @@ const Navbar = () => {
           Particles Marketplace
         </Text>
         <Spacer />
-        {}
+        <Box>
+          <Text as="a" href="/" mr={4}>
+            Home
+          </Text>
+          <Text as="a" href="/about">
+            About
+          </Text>
+        </Box>
       </Flex>
     </Box>
   );
