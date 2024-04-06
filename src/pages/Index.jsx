@@ -43,8 +43,6 @@ const Index = () => {
           </Heading>
           <Text fontSize="xl">Discover and connect with top software talent specialized in modern web technologies.</Text>
 
-          <Image src="https://images.unsplash.com/photo-1492366254240-43affaefc3e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50JTIwdGVhbXxlbnwwfHx8fDE3MTI0MTE4NDN8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Software Development Team" borderRadius="md" objectFit="cover" />
-
           <InputGroup>
             <InputLeftElement pointerEvents="none" children={<FaSearch />} />
             <Input placeholder="Search developers by name, location or technology" value={search} onChange={handleSearchChange} />
